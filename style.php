@@ -87,3 +87,15 @@ ul.menu {
 ul.menu li {
   display: inline;
 }
+
+input {
+  background-color: <?=$palette['foreground']?>;
+  border: <?=$palette['text']?> solid 1px;
+  color: <?=$palette['text']?>;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12pt;
+}
+
+::placeholder {
+  color: <?=$palette['highlight']?>;
+}
