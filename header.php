@@ -25,8 +25,9 @@
             </div>
             <div id="menu">
                 <ul class="menu">
-                    <li><a href="#">menu1</a></li>
-                    <li><a href="#">menu2</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="memo.php">Memo</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                     <li><?=$log_toggle?></li>
                 </ul>
             </div>

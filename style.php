@@ -96,6 +96,17 @@ input {
   font-size: 12pt;
 }
 
+textarea {
+  background-color: <?=$palette['foreground']?>;
+  border: <?=$palette['text']?> solid 1px;
+  color: <?=$palette['text']?>;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12pt;
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
 ::placeholder {
   color: <?=$palette['highlight']?>;
 }
