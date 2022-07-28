@@ -68,6 +68,11 @@ p.text {
   text-indent: 0.5em;
 }
 
+p.date {
+  text-align: right;
+  font-size: 0.5em;
+}
+
 a {
   color: <?=$palette['text']?>;
   text-decoration: none;
