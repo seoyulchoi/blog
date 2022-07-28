@@ -9,7 +9,7 @@
 
     $sql = "
         INSERT INTO cave_contact(
-            name, sendtime, message, secret, password, ip
+            name, date, message, secret, password, ip
         ) VALUES (
             '{$name}', NOW(), '{$message}', '{$secret}', '{$password}', '{$ip}'
         )
